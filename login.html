@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Login | Apex International Bank</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-main">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">A</div>
+          Apex International Bank
+        </a>
+        <nav class="nav">
+          <a href="index.html">← Back to Home</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="login-wrapper">
+    <div class="login-card">
+      <div class="logo">
+        <div class="logo-icon">A</div>
+        Apex International Bank
+      </div>
+      <h1>Client Portal</h1>
+      <p class="subtitle">Secure access to your accounts and transfer activity</p>
+
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="username">Client ID / Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter your client ID" required autocomplete="username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required autocomplete="current-password">
+        </div>
+        <button type="submit" class="btn btn-gold">Sign In Securely</button>
+      </form>
+
+      <div class="demo-note">
+        <strong>Authorized access only</strong><br>
+        Client ID: <code>crampton.eugene</code><br>Password: <code>ApexSecure2026</code>
+      </div>
+
+      <div class="login-footer">
+        <a href="#">Forgot credentials?</a> · <a href="index.html#track">Track a transfer without login</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer" style="padding: 1.25rem 0;">
+    <div class="container">
+      <div class="footer-bottom" style="border: none; padding: 0; justify-content: center;">
+        <span>© 2026 Apex International Bank · Simulated demonstration environment</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transfer Status | Apex International Bank</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <span>Licensed International Banking · Secure SWIFT Transfers</span>
+        <div>
+          <a href="login.html">Client Login</a>
+          <a href="index.html#contact">Support</a>
+        </div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">A</div>
+          Apex International Bank
+        </a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#track">Track Transfer</a>
+          <a href="login.html" class="btn btn-outline btn-sm">Client Portal</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> · <a href="index.html#track">Track Transfer</a> · Status</div>
+      <h1>Transfer Status</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="status-layout">
+      <!-- Main status panel -->
+      <div class="status-main">
+        <div class="status-banner">
+          <div>
+            <div class="label">Current Status</div>
+            <div class="value">Processing — Funds Transferred</div>
+          </div>
+          <div style="text-align: right;">
+            <div class="label">Reference</div>
+            <div class="value" style="font-size: 1rem; font-family: var(--font-sans);">809765439</div>
+          </div>
+        </div>
+
+        <div class="status-body">
+          <!-- Progress -->
+          <div class="progress-track">
+            <div class="progress-line"></div>
+            <div class="step completed">
+              <div class="step-dot">✓</div>
+              <div class="step-label">Initiated</div>
+            </div>
+            <div class="step completed">
+              <div class="step-dot">✓</div>
+              <div class="step-label">Compliance</div>
+            </div>
+            <div class="step active">
+              <div class="step-dot">3</div>
+              <div class="step-label">Processing</div>
+            </div>
+            <div class="step">
+              <div class="step-dot">4</div>
+              <div class="step-label">In Transit</div>
+            </div>
+            <div class="step">
+              <div class="step-dot">5</div>
+              <div class="step-label">Credited</div>
+            </div>
+          </div>
+
+          <p style="font-size: 0.95rem; color: var(--gray-700); margin-bottom: 1.5rem; line-height: 1.65;">
+            The funds have been successfully debited from the originating offshore account and are currently in processing. 
+            This is an international transfer. Expected final credit to the beneficiary account is within <strong>5 business days</strong>.
+          </p>
+
+          <div class="detail-grid">
+            <div class="detail-item">
+              <div class="label">Transfer Amount</div>
+              <div class="value amount">$750,000.00 USD</div>
+            </div>
+            <div class="detail-item">
+              <div class="label">Processing Fee (2%)</div>
+              <div class="value">$15,000.00 USD</div>
+            </div>
+            <div class="detail-item">
+              <div class="label">Net Amount to Beneficiary</div>
+              <div class="value highlight">$735,000.00 USD</div>
+            </div>
+            <div class="detail-item">
+              <div class="label">Transfer Type</div>
+              <div class="value">International — Offshore Origin</div>
+            </div>
+            <div class="detail-item">
+              <div class="label">Beneficiary Name</div>
+              <div class="value">Crampton Edward Eugene</div>
+            </div>
+            <div class="detail-item">
+              <div class="label">Account Number</div>
+              <div class="value">500763518</div>
+            </div>
+            <div class="detail-item">
+              <div class="label">Beneficiary Bank</div>
+              <div class="value">Wood &amp; Huston Bank</div>
+            </div>
+            <div class="detail-item">
+              <div class="label">Bank Address</div>
+              <div class="value">523 Fletcher Ter, West Plains, MO</div>
+            </div>
+            <div class="detail-item full">
+              <div class="label">Estimated Arrival</div>
+              <div class="value">Within 5 business days from initiation of processing stage</div>
+            </div>
+          </div>
+
+          <div class="alert-box">
+            <strong>Important:</strong> International transfers originating from offshore accounts may be subject to additional intermediary bank processing. 
+            The 2% processing fee has already been applied. No further action is required from the beneficiary at this time.
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="status-sidebar">
+        <div class="side-card">
+          <h3>Fee Summary</h3>
+          <div class="fee-row">
+            <span>Principal Amount</span>
+            <span>$750,000.00</span>
+          </div>
+          <div class="fee-row">
+            <span>Processing Fee (2%)</span>
+            <span>− $15,000.00</span>
+          </div>
+          <div class="fee-row total">
+            <span>Net to Receiver</span>
+            <span>$735,000.00</span>
+          </div>
+        </div>
+
+        <div class="side-card">
+          <h3>Activity Timeline</h3>
+          <ul class="timeline">
+            <li class="done">
+              <span class="time">Nov 07, 2026 · 09:14 UTC</span>
+              Transfer instruction received and validated
+            </li>
+            <li class="done">
+              <span class="time">Nov 07, 2026 · 11:42 UTC</span>
+              Compliance &amp; AML screening cleared
+            </li>
+            <li class="done">
+              <span class="time">Nov 08, 2026 · 08:03 UTC</span>
+              Funds debited from offshore origin account
+            </li>
+            <li class="done">
+              <span class="time">Nov 10, 2026 · 14:27 UTC</span>
+              Entered processing queue — intermediary routing
+            </li>
+            <li>
+              <span class="time">Expected</span>
+              Final credit to Wood &amp; Huston Bank (within 5 business days)
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-card" style="text-align: center;">
+          <p style="font-size: 0.85rem; color: var(--gray-500); margin-bottom: 1rem;">Need assistance with this transfer?</p>
+          <a href="login.html" class="btn btn-navy btn-sm" style="width: 100%;">Open Client Portal</a>
+          <a href="index.html#track" class="btn btn-outline btn-sm" style="width: 100%; margin-top: 0.6rem; color: var(--navy); border-color: var(--gray-300);">Track Another</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border: none; padding-top: 0;">
+        <span>© 2026 Apex International Bank. All rights reserved. Simulated demonstration site.</span>
+        <div class="legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
